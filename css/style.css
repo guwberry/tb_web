@@ -370,7 +370,7 @@ h6,
 
 /*** service Start ***/
 .service {
-    background: linear-gradient(rgba(255, 72, 128, 0.05), rgba(255, 72, 128, 0.2));
+    background: linear-gradient(rgba(220, 20, 60, 0.05), rgba(220, 20, 60, 0.2));
 }
 
 .service .service-item {
@@ -439,7 +439,7 @@ h6,
 
 /*** Programs Start ***/
 .program {
-    background: linear-gradient(rgba(255, 72, 128, 0.1), rgba(255, 72, 128, 0.1));
+    background: linear-gradient(rgba(220, 20, 60, 0.1), rgba(220, 20, 60, 0.1));
 }
 
 .program .program-item .program-img .program-rate {
@@ -512,7 +512,7 @@ h6,
     top: 0;
     left: 0;
     bottom: auto;
-    background: rgba(77, 101, 249, .7);
+    background: rgba(30, 144, 255, .7);
     border-radius: 10px;
     transition: 0.5s;
 }
@@ -546,7 +546,7 @@ h6,
     top: 0;
     left: 0;
     bottom: auto;
-    background: rgba(77, 101, 249, .7);
+    background: rgba(30, 144, 255, .7);
     border-radius: 10px 10px 0 0;
     transition: 0.5s;
 }
@@ -680,3 +680,86 @@ h6,
     color: var(--bs-secondary) !important;
 }
 /*** Footer End ***/
+
+/*** Color Overrides for Bootstrap Utility Classes ***/
+/* Force new color scheme for Bootstrap utility classes */
+.bg-primary {
+    background-color: #DC143C !important;
+}
+
+.text-primary {
+    color: #DC143C !important;
+}
+
+.border-primary {
+    border-color: #DC143C !important;
+}
+
+.bg-secondary {
+    background-color: #1E90FF !important;
+}
+
+.text-secondary {
+    color: #1E90FF !important;
+}
+
+.border-secondary {
+    border-color: #1E90FF !important;
+}
+
+.bg-light {
+    background-color: #FFF5F5 !important;
+}
+
+.text-light {
+    color: #FFF5F5 !important;
+}
+
+.border-light {
+    border-color: #FFF5F5 !important;
+}
+
+.bg-dark {
+    background-color: #1E1E1E !important;
+}
+
+.text-dark {
+    color: #1E1E1E !important;
+}
+
+.border-dark {
+    border-color: #1E1E1E !important;
+}
+
+/* Button overrides */
+.btn-primary {
+    background-color: #DC143C !important;
+    border-color: #DC143C !important;
+    color: #fff !important;
+}
+
+.btn-primary:hover {
+    background-color: #B01030 !important;
+    border-color: #B01030 !important;
+}
+
+.btn-secondary {
+    background-color: #1E90FF !important;
+    border-color: #1E90FF !important;
+    color: #fff !important;
+}
+
+.btn-secondary:hover {
+    background-color: #0066CC !important;
+    border-color: #0066CC !important;
+}
+
+/* Dropdown overrides */
+.dropdown-menu.bg-secondary {
+    background-color: #1E90FF !important;
+}
+
+.dropdown-item:hover {
+    background-color: #DC143C !important;
+    color: #fff !important;
+}
