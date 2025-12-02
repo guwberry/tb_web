@@ -1,8 +1,8 @@
-🏫 SMK Tat Beng Website (TB_Web)
+# SMK Tat Beng Website (TB_Web)
 
 This repository contains the source code for the official website of Sekolah Menengah Kebangsaan (SMK) Tat Beng. The site serves as a central hub for essential school information, announcements, academic resources, and community engagement.
 
-✨ Features
+# --- ✨ Features ---
 
 The website is designed to be fully responsive and user-friendly, providing easy access to key information:
 
@@ -16,7 +16,7 @@ Staff/Contact Directory: Easy-to-find contact details for administration and fac
 
 Photo/Media Gallery: Showcasing school life, events, and achievements.
 
-🛠️ Technology Stack
+# --- 🛠️ Technology Stack ---
 
 This project is built using foundational web technologies:
 
@@ -26,13 +26,13 @@ CSS3 (with Tailwind CSS/Sass/Custom CSS - Choose the relevant one): For styling 
 
 JavaScript (ES6+): For interactivity, dynamic content loading, and form validation.
 
-$$Optional: Add Backend/CMS if applicable, e.g., Firebase, Django, or a Static Site Generator like Jekyll$$
+Optional: Add Backend/CMS if applicable, e.g., Firebase, Django, or a Static Site Generator like Jekyll
 
-🚀 Getting Started
+# --- 🚀 Getting Started ---
 
 Follow these steps to set up and run the project locally on your machine for development and testing.
 
-Prerequisites
+## -- Prerequisites --
 
 You only need a modern web browser to view the project. For development, you'll need:
 
@@ -40,26 +40,22 @@ Git (For cloning the repository)
 
 A code editor (e.g., VS Code, Sublime Text)
 
-Installation
+## -- Installation --
 
 Clone the Repository:
 
-git clone [https://github.com/guwberry/tb_web.git](https://github.com/guwberry/tb_web.git)
-
-
+git clone https://www.google.com/search?q=https://github.com/guwberry/tb_web.git
 
 Navigate to the Project Directory:
 
 cd tb_web
-
-
 
 View the Website:
 The project is primarily static (HTML/CSS/JS). Simply open the main entry file (usually index.html) in your web browser.
 
 Note: If your project uses a local server (like Node.js or Python SimpleHTTPServer) to handle dynamic content or routing, please adjust the instructions here.
 
-📂 Project Structure
+# --- 📂 Project Structure ---
 
 The core files and folders in this repository are organized as follows:
 
@@ -73,9 +69,7 @@ tb_web/
 ├── /pages/             # Contains secondary HTML pages (e.g., academics.html, contact.html)
 └── README.md           # This file
 
-
-
-🤝 Contributing
+# --- 🤝 Contributing ---
 
 We welcome contributions from students, staff, and community members! Whether it's fixing a typo, adding a new feature, or improving accessibility, your help is appreciated.
 
@@ -91,7 +85,7 @@ Push to the branch (git push origin feature/your-feature-name).
 
 Open a Pull Request and describe your changes clearly.
 
-📝 License
+# --- 📝 License ---
 
 This project is licensed under the MIT License. See the LICENSE.md file (if you have one) for details.
 
